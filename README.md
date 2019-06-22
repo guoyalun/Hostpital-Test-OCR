@@ -1,12 +1,12 @@
 ### 化验单检查项目相应结果识别
    [代码参考](https://github.com/ankitshaw/Document-Scanner-and-OCR)
 * 运行：
-    进行识别时运行`python labReport.py`
-    `findLine.py` 用于定位直线，不过这个方法效果不好，后期被放弃
-    `imageResize.py` 用于改变图片尺寸，从opencv的方法里移植过来的，做了点小改变
-    `scanDouble.py` 平时用来调试的文件，不用理
-    `transform.py`   用于一张图片的四点定位，将化验单从照片中裁剪出来
-    `labReportBackup.py` 用于备份代码
+    1. 进行识别时运行`python labReport.py`
+    2. `findLine.py` 用于定位直线，不过这个方法效果不好，后期被放弃
+    3. `imageResize.py` 用于改变图片尺寸，从opencv的方法里移植过来的，做了点小改变
+    4. `scanDouble.py` 平时用来调试的文件，不用理
+    5. `transform.py`   用于一张图片的四点定位，将化验单从照片中裁剪出来
+    6. `labReportBackup.py` 用于备份代码
     
 * 要求：
     1. 这张照片要横屏拍照,化验单正对，手机头部向左
