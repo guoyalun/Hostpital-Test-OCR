@@ -1,4 +1,6 @@
 import cv2
+
+
 def resize(image, width=None, height=None, inter=cv2.INTER_AREA):
     # initialize the dimensions of the image to be resized and
     # grab the image size
@@ -23,10 +25,10 @@ def resize(image, width=None, height=None, inter=cv2.INTER_AREA):
         r = width / float(w)
         dim = (width, int(h * r))
     else:
-        dim = (width,height)
+        dim = (width, height)
 
     # resize the image
-    resized = cv2.resize(image,dim, interpolation=inter)
+    resized = cv2.resize(image, dim, interpolation=inter)
 
     # return the resized image
     return resized
